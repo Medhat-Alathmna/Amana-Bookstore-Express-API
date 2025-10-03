@@ -77,6 +77,24 @@
       "reviewCount": 12,
       "inStock": false,
       "featured": false
+    },
+    {
+      "id": "a21174f4-6060-4a24-b534-a506c657bb5f",
+      "title": "noet",
+      "author": "Medhat",
+      "description": "",
+      "price": 0,
+      "isbn": 79867,
+      "genre": [],
+      "tags": [],
+      "datePublished": "2025-10-02",
+      "pages": 5,
+      "language": "English",
+      "publisher": "",
+      "rating": 0,
+      "reviewCount": 0,
+      "inStock": true,
+      "featured": false
     }
   ]
 }

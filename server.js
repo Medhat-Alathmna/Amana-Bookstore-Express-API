@@ -5,7 +5,7 @@ const crypto = require('crypto');
 const morgan = require('morgan'); // Import morgan
 
 const app = express();
-const port = 3000;
+const port = 4200;
 
 // --- Logging Middleware Setup ---
 // Create a 'logging' directory if it doesn't exist as per README
@@ -84,7 +84,9 @@ const basicAuth = (req, res, next) => {
 
 
 // --- GET Routes ---
-
+app.get('/', (req, res) => {
+    res.redirect('/api/books');
+});
 // 1. Get all books in the catalogue
 app.get('/api/books', (req, res) => {
   res.json(books);
